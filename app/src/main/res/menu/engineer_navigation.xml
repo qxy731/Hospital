@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/engineer_repair_order"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="维修工单" />
+
+        <item android:title="寻求合作">
+            <menu>
+                <item
+                    android:id="@+id/engineer_release_technical"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="发布技术合作" />
+                <item
+                    android:id="@+id/engineer_coordination_needs"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="合作需求" />
+
+            </menu>
+        </item>
+        <item android:title="资源共享">
+            <menu>
+                <item
+                    android:id="@+id/engineer_resource_sharing"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="资源共享" />
+                <item
+                    android:id="@+id/engineer_resource_search"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="资源搜索" />
+
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="我的">
+        <menu>
+            <item
+                android:id="@+id/engineer_my_information"
+                android:icon="@drawable/ic_menu_share"
+                android:title="我的资料" />
+            <item
+                android:id="@+id/engineer_my_order"
+                android:icon="@drawable/ic_menu_send"
+                android:title="我的工单" />
+            <item
+                android:id="@+id/engineer_my_coordination"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="我的合作" />
+
+            <item
+                android:id="@+id/engineer_my_resource"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="我的资源" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/hospital_device_repair"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="设备报修" />
+        <item
+            android:id="@+id/hospital_fittings_query"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="配件查询" />
+        <item
+            android:id="@+id/hospital_device_leasing"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="设备租赁" />
+        <item
+            android:id="@+id/common_technical_advisory"
+            android:icon="@drawable/ic_menu_share"
+            android:title="技术咨询" />
+
+
+    <item android:title="我的">
+        <menu>
+            <item
+                android:id="@+id/hospital_my_information"
+                android:icon="@drawable/ic_menu_share"
+                android:title="我的资料" />
+            <item
+                android:id="@+id/hospital_my_device"
+                android:icon="@drawable/ic_menu_send"
+                android:title="我的设备库" />
+            <item
+                android:id="@+id/hospital_my_repair"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="我的报修" />
+        </menu>
+    </item>
+
+    </group>
+
+</menu>
